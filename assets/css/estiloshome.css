@@ -1,0 +1,30 @@
+*{
+    margin:1px;
+}
+
+body{
+    background-color: rgb(218, 239, 242);
+    font-family:'Franklin Gothic Medium';
+    text-align: center;
+}
+
+p{
+    font-size: 5em;
+    margin-top: 2em;
+}
+
+#menu{
+    margin-top: 1em;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(133, 38, 222);
+}
+
+a{
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    margin-right: 1.5em;
+    color: black;
+}
