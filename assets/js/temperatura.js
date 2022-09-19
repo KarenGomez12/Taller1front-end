@@ -16,32 +16,32 @@ function convertirr(){
 
     let valortotal
 
-    if (opcion1==kelvin && opcion2==celsius){
+    if (opcion1==3 && opcion2==2){
         valortotal=(Dato - 273).toFixed(2);
         alert (valortotal) 
     }
 
-    else if(opcion1==kelvin && opcion2==fahrenheit){
+    else if(opcion1==3 && opcion2==1){
         valortotal=((Dato - 273) * 1.8 + 32).toFixed(2);
         alert (valortotal)
     }
 
-    else if(opcion1==celsius && opcion2==kelvin){
+    else if(opcion1==2 && opcion2==3){
         valortotal=(Dato + 273).toFixed(2);
         alert (valortotal)
     }
 
-    else if(opcion1==celsius && opcion2==fahrenheit){
+    else if(opcion1==2 && opcion2==1){
         valortotal=((Dato * 1.8)+ 32).toFixed(2);
         alert (valortotal)
     }
 
-    else if (opcion1==fahrenheit && opcion2==celsius) {
+    else if (opcion1==1 && opcion2==2) {
         valortotal=((Dato-32)/1.8).toFixed(2);
         alert(valortotal)
     }
 
-    else if(opcion1==fahrenheit && opcion2==kelvin){
+    else if(opcion1==1 && opcion2==3){
         valortotal=((Dato-32)* 5/9 + 273).toFixed(2);
         alert (valortotal)
     }

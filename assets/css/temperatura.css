@@ -7,6 +7,12 @@ body{
     font-family:'Franklin Gothic Medium';
 }
 
+a{
+    text-align: left;
+    margin-left: 5em;
+    font-size: 2em;
+}
+
 #bloque2{
     text-align: center;
     padding-top: 5em;
@@ -27,4 +33,11 @@ select{
 p{
     margin-top: 1em;
     font-size: 1em;
+}
+
+button{
+    font-size: 1em;
+    color: black;
+    background-color: rgb(133, 38, 222);
+    border-radius: 0.2em;
 }
