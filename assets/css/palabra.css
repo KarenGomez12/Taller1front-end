@@ -1,0 +1,28 @@
+*{
+    margin:1px;
+}
+
+body{
+    background-color: rgb(218, 239, 242);
+    font-family:'Franklin Gothic Medium';
+}
+
+#bloque{
+    text-align: center;
+    padding-top: 5em;
+}
+
+label{
+    font-size: 2em;
+}
+button{
+    font-size: 1em;
+    color: black;
+    background-color: rgb(133, 38, 222);
+    border-radius: 0.2em;
+}
+
+.opciones{
+    padding-top: 1em;
+    text-align: center;
+}
