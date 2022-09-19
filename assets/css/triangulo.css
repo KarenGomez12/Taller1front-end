@@ -1,0 +1,23 @@
+*{
+    margin:1px;
+}
+
+body{
+    background-color: rgb(218, 239, 242);
+    font-family:'Franklin Gothic Medium';
+}
+
+a{
+    text-align: left;
+    margin-left: 5em;
+    font-size: 2em;
+}
+
+label{
+    font-size: 2em;
+}
+
+#contenedor{
+    text-align: center;
+    padding-top: 5em;
+}
