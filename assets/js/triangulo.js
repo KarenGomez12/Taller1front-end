@@ -13,7 +13,7 @@ let operacion =()=>{
     if(ld1==ld2 && ld1==ld3){
         alert("El triangulo es Isósceles,dos lados iguales")
     }
-    else if(ld1==ld2 && ld1==ld3 && ld2==ld1 && ld2==ld3 && ld3==ld1 && ld3==ld2){
+    else if(ld1==ld2 && ld1==ld3 && ld2==ld3){
         alert("El triangulo es Equilátero, sus tres lados son iguales ")   
     }
 

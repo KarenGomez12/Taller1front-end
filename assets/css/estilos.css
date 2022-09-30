@@ -1,0 +1,99 @@
+*{
+    margin:1px;
+}
+
+body{
+    font-family:'Franklin Gothic Medium';
+}
+
+a{
+    text-align: left;
+    margin-left: 5em;
+    font-size: 2em;
+}
+.contenedorprincipal{
+    background-color: rgb(55, 211, 220);
+    width: 26em;
+    height: 30em;
+    margin-top: 5em;
+    padding-top: 2em;
+    margin-left: 35em;
+    border-radius: 1.5em;
+}
+
+.pantalla-display{
+    background-color: azure;
+    margin-top: 0.2em;
+    margin-left: 3em;
+    width: 20em;
+    height: 4em;
+    border-radius: 0.4em;
+}
+
+.numeros{
+    background-color: rgba(234, 216, 240, 0.953);
+    margin-top: 1em;
+    margin-left: 3em;
+    width: 20em;
+    height: 22em;
+    border-radius: 0.4em;
+}
+
+.botonesfila1{
+    padding-top: 0.2em;
+    display: flex;
+    align-items: flex-start;
+    font-size: 3em;
+}
+
+#C{
+    color: brown;
+}
+
+.botonesfila2{
+    display: flex;
+    align-items: flex-start;
+    flex-flow:space-between;
+    font-size: 3em;
+}
+
+#resta{
+    width: 0.9em;
+}
+
+.botonesfila3{
+    display: flex;
+    align-items: flex-start;
+    font-size: 3em;
+}
+
+#multiplicacion{
+    width: 0.9em;
+}
+
+.botonesfila4{
+    display: flex;
+    align-items: flex-start;
+    font-size: 3em;
+}
+
+#division{
+    width: 0.9em;
+}
+
+.botonesfila5{
+    display: flex;
+    align-items: flex-start;
+    font-size: 3em;
+}
+
+.boton-button{
+    margin-left: 0.7em;
+    font-size: 1.2em;
+}
+
+#total{
+    color: brown;
+    width: 5.43em;
+    padding-left: 1.5em;
+}
