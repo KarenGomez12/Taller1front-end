@@ -1,0 +1,43 @@
+*{
+    margin:1px;
+}
+
+body{
+    background-color: rgb(218, 239, 242);
+    font-family:'Franklin Gothic Medium';
+}
+
+h2{
+    padding-top: 2em;
+    margin-left: 25em;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40em;
+    margin-top: 1em;
+}
+
+input{
+    width: 20em;
+    height: 1.5em;
+}
+
+select{
+    width: 20.5em;
+    height: 1.5em;
+}
+
+.enviar{
+    font-size: 1.5em;
+    color: black;
+    background-color: rgb(133, 38, 222);
+    border-radius: 0.2em;
+    margin-top: 1em;
+    margin-left: 30em;
+}
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}

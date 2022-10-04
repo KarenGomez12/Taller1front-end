@@ -1,0 +1,39 @@
+*{
+    margin:1px;
+}
+
+body{
+    background-color: rgb(218, 239, 242);
+    font-family:'Franklin Gothic Medium';
+}
+
+h1{
+    text-align: center;
+    padding-top: 1em;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(233, 229, 236);
+    margin-left: 1em;
+}
+.card{
+    background-color: rgb(195, 145, 241);
+    width: 10em;
+    height: 10em;
+    margin-right: 3em;
+    margin-left: 5em;
+    margin-top: 10em;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.modal.is-visibleT {
+    visibility: visible;
+    opacity: 1;
+}
